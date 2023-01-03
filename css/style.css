@@ -1,1 +1,115 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #494949;
+}
+
+.header_top {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #494949;
+}
+
+.ht_item {
+  overflow: hidden;
+}
+
+.hti_icon {
+  float: left;
+  margin-top: 5px;
+}
+
+.hti_icon i {
+  color: #ffffff;
+  background-color: #1A9BDC;
+  padding: 10px;
+}
+
+.hti_text {
+  float: left;
+  padding-left: 15px;
+}
+
+.htit_title {
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  display: block;
+}
+
+.htit_text {
+  font-size: 15px;
+  display: block;
+}
+
+.navbar-toggle {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-toggle span {
+  display: block;
+  background-color: #494949;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.navbar-toggle span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggle:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+
+.navbar-toggle:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggle:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggle span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggle span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggle span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}/*# sourceMappingURL=style.css.map */
