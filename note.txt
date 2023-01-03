@@ -4,3 +4,5 @@ fonts
     lato bold
 
 
+sections
+    header (top, bottom), hero, features, choose, counter, blog, gallery, team, cta, footer (top, bottom)
