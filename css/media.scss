@@ -1,16 +1,204 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    
+    // header bottom start
+    .header_bottom {
+        overflow: hidden;
+    }
+    .hb_float {
+        float: left;
+    }
+    .hbn_logo {
+        float: right;
+        width: 150px;
+        margin-top: 5px;
+        margin-left: 45%;
+        position: absolute;
+    }
+    .hbn_logo a img {
+        padding-top: 5px;
+    }
+    .hb_nav_left {
+        margin: 50px auto;
+    }
+    .hb_nav_left li {}
+    .hb_nav_left li a {
+        padding: 0px !important;
+        margin: 10px 35vw;
+        text-align: center;
+    }
+    .hb_nav_left li:first-child a {
+    }
+    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+    }
+    .hb_nav_right {
+        text-align: center;
+        margin: 0 22vw;
+    }
+    .hb_nav_right li {
+    }
+    .hb_nav_right li a  {
+        padding: 0 10px !important;
+        display: inline-block;
+    }
+    .hb_nav_right li:first-child a {
+        padding: 0 10px !important;
+    }
+    .hb_nav_right li a:hover {
+        
+    }
+    // header bottom end
+    // hero start
+    .hero {
+    }
+    .hero_div {
+        padding: 10vh 0vw 20vh 15px;
+        text-align: left;
+    }
+    .hero_div h1 {
+        font-size: 35px;
+        padding: 0px 108px 0px 0px;
+    }
+    .hero_div p {
+        padding: 20px 15px 20px 0px;
+    }
+    .c_btn {
+        padding: 4px 12px;
+    }
+    // hero end
 }
  
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
- 
+    // header bottom start
+    .header_bottom {
+        overflow: hidden;
+    }
+    .hb_float {
+        float: left;
+    }
+    .hbn_logo {
+        float: right;
+        width: 150px;
+        margin-top: 5px;
+        margin-left: 64%;
+        position: absolute;
+    }
+    .hbn_logo a img {
+        padding-top: 5px;
+    }
+    .hb_nav_left {
+        margin: 50px auto;
+    }
+    .hb_nav_left li {}
+    .hb_nav_left li a {
+        padding: 0px !important;
+        margin: 10px 30vw;
+        text-align: center;
+    }
+    .hb_nav_left li:first-child a {
+    }
+    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+    }
+    .hb_nav_right {
+        text-align: center;
+        margin: 0 30vw;
+    }
+    .hb_nav_right li {
+    }
+    .hb_nav_right li a  {
+        padding: 0 10px !important;
+        display: inline-block;
+    }
+    .hb_nav_right li:first-child a {
+        padding: 0 10px !important;
+    }
+    .hb_nav_right li a:hover {
+        
+    }
+    // header bottom end
+    // hero start
+    .hero {
+    }
+    .hero_div {
+        padding: 20vh 20vw 20vh 0vw;
+    }
+    .hero_div h1 {
+        font-size: 30px;
+    }
+    .hero_div p {
+        padding: 20px 25px;
+    }
+    .c_btn {
+        padding: 4px 12px;
+    }
+    // hero end
 }
  
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    // header bottom start
+    .header_bottom {
+        overflow: hidden;
+    }
+    .hb_float {
+        float: left;
+    }
+    .hbn_logo {
+        float: right;
+        width: 150px;
+        margin-top: 5px;
+        margin-left: 71%;
+        position: absolute;
+    }
+    .hbn_logo a img {
+        padding-top: 5px;
+    }
+    .hb_nav_left {
+        margin: 50px auto;
+    }
+    .hb_nav_left li {}
+    .hb_nav_left li a {
+        padding: 0px !important;
+        margin: 10px 40vw;
+        text-align: center;
+    }
+    .hb_nav_left li:first-child a {
+    }
+    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+    }
+    .hb_nav_right {
+        text-align: center;
+        margin: 0 34vw;
+    }
+    .hb_nav_right li {
+    }
+    .hb_nav_right li a  {
+        padding: 0 10px !important;
+        display: inline-block;
+    }
+    .hb_nav_right li:first-child a {
+        padding: 0 10px !important;
+    }
+    .hb_nav_right li a:hover {
+        
+    }
+    // header bottom end
+    // hero start
+    .hero {
+    }
+    .hero_div {
+        padding: 20vh 28vw 20vh 0vw;
+    }
+    .hero_div h1 {
+        font-size: 35px;
+    }
+    .hero_div p {
+        padding: 20px 32px;
+    }
+    .c_btn {
+        padding: 5px 15px;
+    }
+    // hero end
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -39,6 +227,10 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     // header top start
+    .header_top {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
     .hti_icon i {
         padding: 8px;
         font-size: 14px;
@@ -57,5 +249,10 @@
  
 /* Extra extra large devices (extra large desktops, 1400px and up) */
 @media (min-width: 1400px) {
- 
+    // header start
+    .header_top {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // header end
 }

@@ -29,6 +29,8 @@ $accentFontBold: Lato-Bold;
 
 $primaryColor: #ffffff;
 $secondaryColor: #494949;
+$secondaryColorOpacity: #49494985;
+$secondaryColorDark: #191919;
 $accentColor: #1A9BDC;
 // variables end
 // common start
@@ -41,6 +43,11 @@ body {
     font-family: $primaryFontRegular;
     font-size: 16px;
     color: $secondaryColor;
+    line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondaryFontBold;
+    color: $secondaryColor;
 }
 // common end
 // header top start
@@ -48,7 +55,7 @@ header {}
 .header_top {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid $secondaryColor;
+    border-bottom: 1px solid $secondaryColorOpacity;
 }
 .ht_logo {}
 .ht_item {
@@ -78,6 +85,41 @@ header {}
 }
 // header top end
 // header-bottom start
+.header_bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hb_float {
+}
+.hb_nav_left {
+    
+}
+.hb_nav_left li {}
+.hb_nav_left li a {
+    font-family: $accentFontBold;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.hb_nav_left li:first-child a {
+    padding-left: 0px !important;
+}
+.hb_nav_left li a:hover, .hb_nav_left li a .active {
+    color: $secondaryColorDark !important;
+}
+.hb_nav_right {}
+.hb_nav_right li {}
+.hb_nav_right li a {
+    color: $secondaryColorDark !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.hb_nav_right li:last-child a {
+    padding-right: 0px !important;
+}
+.hb_nav_right li a:hover {
+    
+}
+
 // toggler animation start
 .navbar-toggle {
     border: none;
@@ -119,3 +161,30 @@ header {}
 }
 // toggler animation end
 // header-bottom end
+// hero start
+.hero {
+    background-image: url(../images/hero/hero-bg.png);
+    background-position: center top;
+    background-size: cover;
+}
+.hero_div {
+    padding: 20vh 37vw 20vh 2vw;
+    text-align: center;
+}
+.hero_div h1 {
+    font-size: 42px;
+}
+.hero_div p {
+    padding: 20px 42px;
+}
+.c_btn {
+    font-family: $accentFontBold;
+    color: $primaryColor !important;
+    background-color: $accentColor;
+    padding: 5px 15px;
+    transition: .3s;
+}
+.c_btn:hover {
+    background-color: $secondaryColor;
+}
+// hero end

@@ -28,12 +28,18 @@ body {
   font-family: OpenSans-Regular;
   font-size: 16px;
   color: #494949;
+  line-height: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Bold;
+  color: #494949;
 }
 
 .header_top {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #494949;
+  border-bottom: 1px solid rgba(73, 73, 73, 0.5215686275);
 }
 
 .ht_item {
@@ -65,6 +71,35 @@ body {
 .htit_text {
   font-size: 15px;
   display: block;
+}
+
+.header_bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hb_nav_left li a {
+  font-family: Lato-Bold;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.hb_nav_left li:first-child a {
+  padding-left: 0px !important;
+}
+
+.hb_nav_left li a:hover, .hb_nav_left li a .active {
+  color: #191919 !important;
+}
+
+.hb_nav_right li a {
+  color: #191919 !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.hb_nav_right li:last-child a {
+  padding-right: 0px !important;
 }
 
 .navbar-toggle {
@@ -112,4 +147,35 @@ body {
 
 .navbar-toggle span:nth-child(3) {
   transform: translate(0%, 0%) rotate(0deg);
+}
+
+.hero {
+  background-image: url(../images/hero/hero-bg.png);
+  background-position: center top;
+  background-size: cover;
+}
+
+.hero_div {
+  padding: 20vh 37vw 20vh 2vw;
+  text-align: center;
+}
+
+.hero_div h1 {
+  font-size: 42px;
+}
+
+.hero_div p {
+  padding: 20px 42px;
+}
+
+.c_btn {
+  font-family: Lato-Bold;
+  color: #ffffff !important;
+  background-color: #1A9BDC;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+
+.c_btn:hover {
+  background-color: #494949;
 }/*# sourceMappingURL=style.css.map */
