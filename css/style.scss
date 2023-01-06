@@ -1,3 +1,6 @@
+// import start
+@import "variables";
+// import end
 // fonts start
 @font-face {
     font-family: OpenSans-Regular;
@@ -20,19 +23,6 @@
     src: url(../fonts/Lato/Lato-Bold.ttf);
 }
 // fonts end
-// variables start
-$primaryFontRegular: OpenSans-Regular; 
-$primaryFontBold: OpenSans-Bold;
-$secondaryFontMedium: Montserrat-Medium; 
-$secondaryFontBold: Montserrat-Bold; 
-$accentFontBold: Lato-Bold;
-
-$primaryColor: #ffffff;
-$secondaryColor: #494949;
-$secondaryColorOpacity: #49494985;
-$secondaryColorDark: #191919;
-$accentColor: #1A9BDC;
-// variables end
 // common start
 * {
     box-sizing: border-box;
@@ -56,6 +46,7 @@ header {}
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid $secondaryColorOpacity;
+    background-color: $primaryColor;
 }
 .ht_logo {}
 .ht_item {
@@ -188,3 +179,41 @@ header {}
     background-color: $secondaryColor;
 }
 // hero end
+// feature start
+.feature {}
+.f_item {
+    padding: 50px 0px;
+}
+.f_item_bgc {
+    background-color: $accentColor;
+}
+.f_item_bgc:nth-child(2) {
+    background-color: $accentColorLight;
+}
+.f_item_bgc:nth-child(3) {
+    background-color: $accentColor;
+}
+.f_item_bgc:nth-child(4) {
+    background-color: $accentColorLight;
+}
+.fi_img {
+}
+.fi_img img {
+    position: relative;
+    left: 50%;
+    margin-left: -37px;
+}
+.fi_text {
+    text-align: center;
+}
+.fi_text h4 {
+    font-size: 25px;
+    color: $primaryColor;
+    padding: 10px 0px;
+}
+.fi_text p {
+    color: $primaryColor;
+}
+// feature end
+
+

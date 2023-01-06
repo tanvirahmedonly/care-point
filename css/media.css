@@ -36,15 +36,14 @@
     padding: 0 10px !important;
   }
   .hero_div {
-    padding: 10vh 0vw 20vh 15px;
-    text-align: left;
+    padding: 10vh 10vw 10vh 10vw;
   }
   .hero_div h1 {
     font-size: 35px;
-    padding: 0px 108px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .hero_div p {
-    padding: 20px 15px 20px 0px;
+    padding: 20px 0px 20px 0px;
   }
   .c_btn {
     padding: 4px 12px;
@@ -99,6 +98,21 @@
   .c_btn {
     padding: 4px 12px;
   }
+  .f_item {
+    padding: 50px 0px;
+  }
+  .f_item_bgc {
+    background-color: #1A9BDC;
+  }
+  .f_item_bgc:nth-child(2) {
+    background-color: #37c3a8;
+  }
+  .f_item_bgc:nth-child(3) {
+    background-color: #37c3a8;
+  }
+  .f_item_bgc:nth-child(4) {
+    background-color: #1A9BDC;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -148,6 +162,21 @@
   }
   .c_btn {
     padding: 5px 15px;
+  }
+  .f_item {
+    padding: 50px 30px;
+  }
+  .f_item_bgc {
+    background-color: #1A9BDC;
+  }
+  .f_item_bgc:nth-child(2) {
+    background-color: #37c3a8;
+  }
+  .f_item_bgc:nth-child(3) {
+    background-color: #37c3a8;
+  }
+  .f_item_bgc:nth-child(4) {
+    background-color: #1A9BDC;
   }
 }
 /* Large devices (desktops, 992px and up) */

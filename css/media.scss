@@ -1,3 +1,6 @@
+// import start
+@import "variables";
+// import end
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     // header bottom start
@@ -51,15 +54,14 @@
     .hero {
     }
     .hero_div {
-        padding: 10vh 0vw 20vh 15px;
-        text-align: left;
+        padding: 10vh 10vw 10vh 10vw;
     }
     .hero_div h1 {
         font-size: 35px;
-        padding: 0px 108px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .hero_div p {
-        padding: 20px 15px 20px 0px;
+        padding: 20px 0px 20px 0px;
     }
     .c_btn {
         padding: 4px 12px;
@@ -132,6 +134,23 @@
         padding: 4px 12px;
     }
     // hero end
+    // feature start
+    .f_item {
+        padding: 50px 0px;
+    }
+    .f_item_bgc {
+        background-color: $accentColor;
+    }
+    .f_item_bgc:nth-child(2) {
+        background-color: $accentColorLight;
+    }
+    .f_item_bgc:nth-child(3) {
+        background-color: $accentColorLight;
+    }
+    .f_item_bgc:nth-child(4) {
+        background-color: $accentColor;
+    }
+    // feature end
 }
  
 /* Medium devices (tablets, 768px and up) */
@@ -199,6 +218,23 @@
         padding: 5px 15px;
     }
     // hero end
+    // feature start
+    .f_item {
+        padding: 50px 30px;
+    }
+    .f_item_bgc {
+        background-color: $accentColor;
+    }
+    .f_item_bgc:nth-child(2) {
+        background-color: $accentColorLight;
+    }
+    .f_item_bgc:nth-child(3) {
+        background-color: $accentColorLight;
+    }
+    .f_item_bgc:nth-child(4) {
+        background-color: $accentColor;
+    }
+    // feature end
 }
  
 /* Large devices (desktops, 992px and up) */

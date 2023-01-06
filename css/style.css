@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(73, 73, 73, 0.5215686275);
+  background-color: #ffffff;
 }
 
 .ht_item {
@@ -178,4 +179,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .c_btn:hover {
   background-color: #494949;
+}
+
+.f_item {
+  padding: 50px 0px;
+}
+
+.f_item_bgc {
+  background-color: #1A9BDC;
+}
+
+.f_item_bgc:nth-child(2) {
+  background-color: #37c3a8;
+}
+
+.f_item_bgc:nth-child(3) {
+  background-color: #1A9BDC;
+}
+
+.f_item_bgc:nth-child(4) {
+  background-color: #37c3a8;
+}
+
+.fi_img img {
+  position: relative;
+  left: 50%;
+  margin-left: -37px;
+}
+
+.fi_text {
+  text-align: center;
+}
+
+.fi_text h4 {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 10px 0px;
+}
+
+.fi_text p {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
