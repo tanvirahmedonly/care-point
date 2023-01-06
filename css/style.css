@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(73, 73, 73, 0.5215686275);
-  background-color: #ffffff;
 }
 
 .ht_item {
@@ -77,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 .header_bottom {
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #ffffff;
 }
 
 .hb_nav_left li a {
