@@ -46,7 +46,6 @@ header {}
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid $secondaryColorOpacity;
-    background-color: $primaryColor;
 }
 .ht_logo {}
 .ht_item {
@@ -79,6 +78,7 @@ header {}
 .header_bottom {
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: $primaryColor;
 }
 .hb_float {
 }
