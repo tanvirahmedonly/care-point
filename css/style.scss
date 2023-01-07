@@ -215,5 +215,76 @@ header {}
     color: $primaryColor;
 }
 // feature end
+// choose top start
+.choose_top {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.ct_text {
+    text-align: center;
+}
+.ct_text h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.ct_text p {}
+// choose top end
+// choose bottom start
+.choose_bottom {
+    
+}
+.cb_item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cbi_title {}
+.cbi_title_img {}
+.cbi_title_img img {}
+.cbi_title_text {}
+.cbi_title_text h4 {
+    font-size: 25px;
+}
+.cbi_text {}
+.cbi_text p {
+    padding-top: 10px;
+}
+// choose bottom end
+// counter start
+.counter {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+}
+.ctr_item {
+    text-align: center;
+}
+.ctri_icon {
+}
+.ctri_icon img {
+    
+}
+.ctri_number {
+    font-family: $secondaryFontMedium;
+    font-size: 50px;
+    color: $primaryColor;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.ctri_line {}
+.ctri_line img {
+    
+}
+.ctri_text {
+    display: block;
+    font-family: $secondaryFontMedium;
+    font-size: 25px;
+    line-height: 30px;
+    color: $primaryColor;
+    padding-top: 20px;
+}
+// counter end
 
 

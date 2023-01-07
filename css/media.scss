@@ -26,7 +26,7 @@
     .hb_nav_left li {}
     .hb_nav_left li a {
         padding: 0px !important;
-        margin: 10px 35vw;
+        margin: 10px 30vw;
         text-align: center;
     }
     .hb_nav_left li:first-child a {
@@ -67,6 +67,49 @@
         padding: 4px 12px;
     }
     // hero end
+    // choose top start
+    .choose_top {
+        padding-top: 35px;
+    }
+    .ct_text h2 {
+        font-size: 25px;
+    }
+    // choose top end
+    // choose bottom start
+    .choose_bottom {
+        padding-bottom: 20px;
+    }
+    .cb_item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // choose bottom end
+    // counter start
+    .counter {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .ctr_item {
+        padding-bottom: 50px;
+    }
+    .ctri_number {
+    }
+    .ctri_icon img {
+        max-width: 20%;
+    }
+    .ctri_number {
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .ctri_line img {
+        max-width: 15%;
+    }
+    .ctri_text {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    // counter end
 }
  
 /* Small devices (landscape phones, 576px and up) */
@@ -151,6 +194,49 @@
         background-color: $accentColor;
     }
     // feature end
+    // choose top start
+    .choose_top {
+        padding-top: 35px;
+    }
+    .ct_text h2 {
+        font-size: 25px;
+    }
+    // choose top end
+    // choose bottom start
+    .choose_bottom {
+        padding-bottom: 20px;
+    }
+    .cb_item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // choose bottom end
+    // counter start
+    .counter {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .ctr_item {
+        padding-bottom: 50px;
+    }
+    .ctri_number {
+    }
+    .ctri_icon img {
+        max-width: 25%;
+    }
+    .ctri_number {
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .ctri_line img {
+        max-width: 20%;
+    }
+    .ctri_text {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    // counter end
 }
  
 /* Medium devices (tablets, 768px and up) */
@@ -235,6 +321,45 @@
         background-color: $accentColor;
     }
     // feature end
+    // choose top start
+    .choose_top {
+        padding-top: 50px;
+    }
+    .ct_text h2 {
+        font-size: 28px;
+    }
+    // choose top end
+    // choose bottom start
+    .cb_item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .cbi_title_img img {
+        width: 80%;
+    }
+    // choose bottom end
+    // counter start
+    .counter {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .ctri_number {
+    }
+    .ctri_icon img {
+        max-width: 40%;
+    }
+    .ctri_number {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+    .ctri_line img {
+        max-width: 40%;
+    }
+    .ctri_text {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    // counter end
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -291,4 +416,23 @@
         padding-bottom: 20px;
     }
     // header end
+    // choose top start
+    .choose_top {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    .ct_text h2 {
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    // choose top end
+    // counter start
+    .counter {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .ctri_number {
+        padding-top: 50px;
+    }
+    // counter end
 }
