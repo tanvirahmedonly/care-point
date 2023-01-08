@@ -41,24 +41,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 // common end
 // header top start
-header {}
 .header_top {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid $secondaryColorOpacity;
 }
-.ht_logo {}
 .ht_item {
     overflow: hidden;
 }
 .hti_icon {
     float: left;
     margin-top: 5px;
-}
-.hti_icon i {
-    color: $primaryColor;
-    background-color: $accentColor;
-    padding: 10px;
+    i {
+        color: $primaryColor;
+        background-color: $accentColor;
+        padding: 10px;
+    }
 }
 .hti_text {
     float: left;
@@ -80,75 +78,82 @@ header {}
     padding-bottom: 10px;
     background-color: $primaryColor;
 }
-.hb_float {
-}
 .hb_nav_left {
-    
+    li {
+        a {
+            font-family: $accentFontBold;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            &:hover {
+                color: $secondaryColorDark !important;
+            }
+            .active {
+                color: $secondaryColorDark !important;
+            }
+        }
+        &:first-child {
+            a {
+                padding-left: 0px !important;
+            }
+        }
+    }
 }
-.hb_nav_left li {}
-.hb_nav_left li a {
-    font-family: $accentFontBold;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-}
-.hb_nav_left li:first-child a {
-    padding-left: 0px !important;
-}
-.hb_nav_left li a:hover, .hb_nav_left li a .active {
-    color: $secondaryColorDark !important;
-}
-.hb_nav_right {}
-.hb_nav_right li {}
-.hb_nav_right li a {
-    color: $secondaryColorDark !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-}
-.hb_nav_right li:last-child a {
-    padding-right: 0px !important;
-}
-.hb_nav_right li a:hover {
-    
+.hb_nav_right {
+    li {
+        a {
+            color: $secondaryColorDark !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        &:last-child {
+            a {
+                padding-right: 0px !important;
+            }
+        }
+    }
 }
 
 // toggler animation start
 .navbar-toggle {
     border: none;
     background-color: transparent;
-}
-.navbar-toggle span {
-    display: block;
-    background-color: $secondaryColor;
-    height: 3px;
-    width: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    position: relative;
-    left: 0;
-    opacity: 1;
-    transition: all 0.35s ease-out;
-    transform-origin: center left;
-}
-.navbar-toggle span:nth-child(1) {
-    margin-top: 0.3em;
-}
-.navbar-toggle:not(.collapsed) span:nth-child(1) {
-    transform: translate(15%, -33%) rotate(45deg);
-}
-.navbar-toggle:not(.collapsed) span:nth-child(2) {
-    opacity: 0;
-}
-.navbar-toggle:not(.collapsed) span:nth-child(3) {
-    transform: translate(15%, 33%) rotate(-45deg) ;
-}
-.navbar-toggle span:nth-child(1) {
-    transform: translate(0%, 0%) rotate(0deg) ;
-}
-.navbar-toggle span:nth-child(2) {
-    opacity: 1;
-}
-.navbar-toggle span:nth-child(3) {
-    transform: translate(0%, 0%) rotate(0deg) ;
+
+    span {
+        display: block;
+        background-color: $secondaryColor;
+        height: 3px;
+        width: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        position: relative;
+        left: 0;
+        opacity: 1;
+        transition: all 0.35s ease-out;
+        transform-origin: center left;
+        &:nth-child(1) {
+            margin-top: 0.3em;
+            transform: translate(0%, 0%) rotate(0deg);
+        }
+        &:nth-child(2) {
+            opacity: 1;
+        }
+        &:nth-child(3) {
+            transform: translate(0%, 0%) rotate(0deg);
+        }
+    }
+    &:not(.collapsed) {
+        span {
+            &:nth-child(1) {
+                transform: translate(15%, -33%) rotate(45deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:nth-child(3) {
+                transform: translate(15%, 33%) rotate(-45deg);
+            }
+        }
+    }
 }
 // toggler animation end
 // header-bottom end
@@ -161,92 +166,89 @@ header {}
 .hero_div {
     padding: 20vh 37vw 20vh 2vw;
     text-align: center;
-}
-.hero_div h1 {
-    font-size: 42px;
-}
-.hero_div p {
-    padding: 20px 42px;
+    h1 {
+        font-size: 42px;
+    }
+    p {
+        padding: 20px 42px;
+    }
 }
 .c_btn {
     font-family: $accentFontBold;
     color: $primaryColor !important;
+    text-transform: uppercase;
     background-color: $accentColor;
     padding: 5px 15px;
     transition: .3s;
-}
-.c_btn:hover {
-    background-color: $secondaryColor;
+    &:hover {
+        background-color: $secondaryColor;
+    }
 }
 // hero end
 // feature start
-.feature {}
 .f_item {
     padding: 50px 0px;
 }
 .f_item_bgc {
     background-color: $accentColor;
-}
-.f_item_bgc:nth-child(2) {
-    background-color: $accentColorLight;
-}
-.f_item_bgc:nth-child(3) {
-    background-color: $accentColor;
-}
-.f_item_bgc:nth-child(4) {
-    background-color: $accentColorLight;
+    &:nth-child(2) {
+        background-color: $accentColorLight;
+    }
+    &:nth-child(3) {
+        background-color: $accentColor;
+    }
+    &:nth-child(4) {
+        background-color: $accentColorLight;
+    }
 }
 .fi_img {
-}
-.fi_img img {
-    position: relative;
-    left: 50%;
-    margin-left: -37px;
+    img {
+        position: relative;
+        left: 50%;
+        margin-left: -37px;
+    }
 }
 .fi_text {
     text-align: center;
-}
-.fi_text h4 {
-    font-size: 25px;
-    color: $primaryColor;
-    padding: 10px 0px;
-}
-.fi_text p {
-    color: $primaryColor;
+    h4 {
+        font-size: 25px;
+        color: $primaryColor;
+        padding: 10px 0px;
+    }
+    p {
+        color: $primaryColor;
+    }
 }
 // feature end
 // choose top start
 .choose_top {
     padding-top: 80px;
-    padding-bottom: 20px;
 }
 .ct_text {
     text-align: center;
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 }
-.ct_text h2 {
-    padding-bottom: 10px;
-    font-size: 30px;
-}
-.ct_text p {}
 // choose top end
 // choose bottom start
-.choose_bottom {
-    
-}
 .cb_item {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.cbi_title {}
-.cbi_title_img {}
-.cbi_title_img img {}
-.cbi_title_text {}
-.cbi_title_text h4 {
-    font-size: 25px;
+.cbi_title_text {
+    h4 {
+        font-size: 25px;
+    }
 }
-.cbi_text {}
-.cbi_text p {
-    padding-top: 10px;
+.cbi_text {
+    p {
+        padding-top: 10px;
+    }
 }
 // choose bottom end
 // counter start
@@ -261,21 +263,12 @@ header {}
 .ctr_item {
     text-align: center;
 }
-.ctri_icon {
-}
-.ctri_icon img {
-    
-}
 .ctri_number {
     font-family: $secondaryFontMedium;
     font-size: 50px;
     color: $primaryColor;
     padding-top: 40px;
     padding-bottom: 20px;
-}
-.ctri_line {}
-.ctri_line img {
-    
 }
 .ctri_text {
     display: block;
@@ -286,5 +279,130 @@ header {}
     padding-top: 20px;
 }
 // counter end
+// blog left start
+.bl_top {
+    padding-top: 80px;
+}
+.blt_text {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+.bl_bottom {
+    padding-bottom: 80px;
+}
+.blb_div_a {
+    text-decoration: none;
+    color: inherit !important;
+}
+.blb_item {
+    padding-top: 20px;
+}
+.blb_item_left {
+    padding-right: 15px;
+}
+.blb_item_right {
+    padding-left: 15px;
+}
+.blbi_img {
+    img {
+        width: 100%;
+    }
+}
+.blb_item {
+    h5 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+}
+.blbi_info {
+    font-family: $secondaryFontMedium;
+    font-size: 14px;
+    color: $accentColor;
+}
+.blb_item p {
+    padding-top: 10px;
+}
+.blb_readmore {
+    padding-top: 40px;
+}
+// blog left end
+// blog right start
+.br_top {
+    padding-top: 80px;
+}
+.brt_text {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+.br_bottom {
+    padding-bottom: 20px;
+}
+.b_accordion_btn {
+    background-color: #e2e2e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &:not(.collapsed) {
+        background-color: #e2e2e2 !important;
+    }
+
+}
+.accordion-button {
+    padding: 5px 5px;
+
+    &::after {
+        content: none;
+    }
+
+    &:not(.collapsed) {
+        color: $secondaryColor;
+        background-color: #e2e2e2;
+        box-shadow: none;
+
+        &::after {
+            content: none;
+        }
+
+        &::before {
+            content: url(../images/blog/right-arrow.png);
+            transform: rotate(90deg);
+            padding-right: 10px;
+            position: relative;
+            top: 50%;
+            margin-top: 3px;
+            margin-left: -5px;
+        }
+    }
+
+    &::before {
+        content: url(../images/blog/right-arrow.png);
+        padding-left: 5px;
+        padding-right: 10px;
+        position: relative;
+        top: 50%;
+        margin-top: 3px;
+    }
+
+    &:focus {
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        color: $secondaryColor;
+    }
+}
+.accordion-item {
+    border: none;
+}
+// blog right end
 
 

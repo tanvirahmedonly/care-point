@@ -4,74 +4,55 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     // header bottom start
-    .header_bottom {
-        overflow: hidden;
-    }
-    .hb_float {
-        float: left;
-    }
-    .hbn_logo {
-        float: right;
-        width: 150px;
-        margin-top: 5px;
-        margin-left: 45%;
-        position: absolute;
-    }
     .hbn_logo a img {
-        padding-top: 5px;
+        width: 160px;
     }
     .hb_nav_left {
         margin: 50px auto;
-    }
-    .hb_nav_left li {}
-    .hb_nav_left li a {
-        padding: 0px !important;
-        margin: 10px 30vw;
-        text-align: center;
-    }
-    .hb_nav_left li:first-child a {
-    }
-    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+        li {
+            a {
+                padding: 0px !important;
+                margin: 10px 30vw;
+                text-align: center;
+            }
+        }
     }
     .hb_nav_right {
         text-align: center;
         margin: 0 22vw;
-    }
-    .hb_nav_right li {
-    }
-    .hb_nav_right li a  {
-        padding: 0 10px !important;
-        display: inline-block;
-    }
-    .hb_nav_right li:first-child a {
-        padding: 0 10px !important;
-    }
-    .hb_nav_right li a:hover {
-        
+        li {
+            a {
+                padding: 0 10px !important;
+                display: inline-block;
+            }
+            &:first-child {
+                a {
+                    padding: 0 10px !important;
+                }
+            }
+        }
     }
     // header bottom end
     // hero start
-    .hero {
-    }
     .hero_div {
         padding: 10vh 10vw 10vh 10vw;
-    }
-    .hero_div h1 {
-        font-size: 35px;
-        padding: 0px 0px 0px 0px;
-    }
-    .hero_div p {
-        padding: 20px 0px 20px 0px;
+        h1 {
+            font-size: 35px;
+            padding: 0px 0px 0px 0px;
+        }
+        p {
+            padding: 20px 0px 20px 0px;
+        }
     }
     .c_btn {
         padding: 4px 12px;
     }
     // hero end
     // choose top start
-    .choose_top {
+    .choose_top, .bl_top, .br_top {
         padding-top: 35px;
     }
-    .ct_text h2 {
+    .ct_text h2, .blt_text h2, .brt_text h2 {
         font-size: 25px;
     }
     // choose top end
@@ -91,8 +72,6 @@
     }
     .ctr_item {
         padding-bottom: 50px;
-    }
-    .ctri_number {
     }
     .ctri_icon img {
         max-width: 20%;
@@ -110,68 +89,66 @@
         padding-top: 10px;
     }
     // counter end
+    // blog left start
+    .bl_bottom {
+        padding-bottom: 10px;
+    }
+    .blb_item_left {
+        padding-right: 0px;
+    }
+    .blb_item_right {
+        padding-left: 0px;
+    }
+    .blb_item h5 {
+        padding-top: 10px;
+    }
+    .blb_item h5 {
+        padding-top: 5px;
+    }
+    // blog left end
 }
  
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     // header bottom start
-    .header_bottom {
-        overflow: hidden;
-    }
-    .hb_float {
-        float: left;
-    }
-    .hbn_logo {
-        float: right;
-        width: 150px;
-        margin-top: 5px;
-        margin-left: 64%;
-        position: absolute;
-    }
     .hbn_logo a img {
-        padding-top: 5px;
+        width: 160px;
     }
     .hb_nav_left {
         margin: 50px auto;
     }
-    .hb_nav_left li {}
-    .hb_nav_left li a {
-        padding: 0px !important;
-        margin: 10px 30vw;
-        text-align: center;
-    }
-    .hb_nav_left li:first-child a {
-    }
-    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+    .hb_nav_left li {
+        a {
+            padding: 0px !important;
+            margin: 10px 30vw;
+            text-align: center;
+        }
     }
     .hb_nav_right {
         text-align: center;
         margin: 0 30vw;
-    }
-    .hb_nav_right li {
-    }
-    .hb_nav_right li a  {
-        padding: 0 10px !important;
-        display: inline-block;
-    }
-    .hb_nav_right li:first-child a {
-        padding: 0 10px !important;
-    }
-    .hb_nav_right li a:hover {
-        
+        li {
+            a {
+                padding: 0 10px !important;
+                display: inline-block;
+            }
+            &:first-child {
+                a {
+                    padding: 0 10px !important;
+                }
+            }
+        }
     }
     // header bottom end
     // hero start
-    .hero {
-    }
     .hero_div {
         padding: 20vh 20vw 20vh 0vw;
-    }
-    .hero_div h1 {
-        font-size: 30px;
-    }
-    .hero_div p {
-        padding: 20px 25px;
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            padding: 20px 25px;
+        }
     }
     .c_btn {
         padding: 4px 12px;
@@ -183,22 +160,22 @@
     }
     .f_item_bgc {
         background-color: $accentColor;
-    }
-    .f_item_bgc:nth-child(2) {
-        background-color: $accentColorLight;
-    }
-    .f_item_bgc:nth-child(3) {
-        background-color: $accentColorLight;
-    }
-    .f_item_bgc:nth-child(4) {
-        background-color: $accentColor;
+        &:nth-child(2) {
+            background-color: $accentColorLight;
+        }
+        &:nth-child(3) {
+            background-color: $accentColorLight;
+        }
+        &:nth-child(4) {
+            background-color: $accentColor;
+        }
     }
     // feature end
     // choose top start
-    .choose_top {
+    .choose_top, .bl_top, .br_top {
         padding-top: 35px;
     }
-    .ct_text h2 {
+    .ct_text h2, .blt_text h2, .brt_text h2 {
         font-size: 25px;
     }
     // choose top end
@@ -219,8 +196,6 @@
     .ctr_item {
         padding-bottom: 50px;
     }
-    .ctri_number {
-    }
     .ctri_icon img {
         max-width: 25%;
     }
@@ -237,68 +212,60 @@
         padding-top: 10px;
     }
     // counter end
+    // blog left start
+    .bl_bottom {
+        padding-bottom: 20px;
+    }
+    .blb_item_left {
+        padding-right: 0px;
+    }
+    .blb_item_right {
+        padding-left: 0px;
+    }
+    // blog left end
 }
  
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     // header bottom start
-    .header_bottom {
-        overflow: hidden;
-    }
-    .hb_float {
-        float: left;
-    }
-    .hbn_logo {
-        float: right;
-        width: 150px;
-        margin-top: 5px;
-        margin-left: 71%;
-        position: absolute;
-    }
     .hbn_logo a img {
-        padding-top: 5px;
+        width: 160px;
     }
     .hb_nav_left {
         margin: 50px auto;
-    }
-    .hb_nav_left li {}
-    .hb_nav_left li a {
-        padding: 0px !important;
-        margin: 10px 40vw;
-        text-align: center;
-    }
-    .hb_nav_left li:first-child a {
-    }
-    .hb_nav_left li a:hover, .hb_nav_left li a .active {
+        li {
+            a {
+                padding: 0px !important;
+                margin: 10px 40vw;
+                text-align: center;
+            }
+        }
     }
     .hb_nav_right {
         text-align: center;
         margin: 0 34vw;
-    }
-    .hb_nav_right li {
-    }
-    .hb_nav_right li a  {
-        padding: 0 10px !important;
-        display: inline-block;
-    }
-    .hb_nav_right li:first-child a {
-        padding: 0 10px !important;
-    }
-    .hb_nav_right li a:hover {
-        
+        li {
+            a {
+                padding: 0 10px !important;
+                display: inline-block;
+            }
+            &:first-child {
+                a {
+                    padding: 0 10px !important;
+                }
+            }
+        }
     }
     // header bottom end
     // hero start
-    .hero {
-    }
     .hero_div {
         padding: 20vh 28vw 20vh 0vw;
-    }
-    .hero_div h1 {
-        font-size: 35px;
-    }
-    .hero_div p {
-        padding: 20px 32px;
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            padding: 20px 32px;
+        }
     }
     .c_btn {
         padding: 5px 15px;
@@ -310,22 +277,22 @@
     }
     .f_item_bgc {
         background-color: $accentColor;
-    }
-    .f_item_bgc:nth-child(2) {
-        background-color: $accentColorLight;
-    }
-    .f_item_bgc:nth-child(3) {
-        background-color: $accentColorLight;
-    }
-    .f_item_bgc:nth-child(4) {
-        background-color: $accentColor;
+        &:nth-child(2) {
+            background-color: $accentColorLight;
+        }
+        &:nth-child(3) {
+            background-color: $accentColorLight;
+        }
+        &:nth-child(4) {
+            background-color: $accentColor;
+        }
     }
     // feature end
     // choose top start
-    .choose_top {
+    .choose_top, .bl_top, .br_top {
         padding-top: 50px;
     }
-    .ct_text h2 {
+    .ct_text h2, .blt_text h2, .brt_text h2 {
         font-size: 28px;
     }
     // choose top end
@@ -343,8 +310,6 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .ctri_number {
-    }
     .ctri_icon img {
         max-width: 40%;
     }
@@ -360,6 +325,11 @@
         padding-top: 10px;
     }
     // counter end
+    // blog left start
+    .bl_bottom {
+        padding-bottom: 20px;
+    }
+    // blog left end
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -417,13 +387,15 @@
     }
     // header end
     // choose top start
-    .choose_top {
+    .choose_top, .bl_top, .br_top {
         padding-top: 80px;
-        padding-bottom: 20px;
     }
-    .ct_text h2 {
-        padding-bottom: 10px;
+    .ct_text h2, .blt_text h2, .brt_text h2 {
         font-size: 30px;
+    }
+    .ct_text p, .blt_text p, .brt_text p {
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     // choose top end
     // counter start

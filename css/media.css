@@ -1,20 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .header_bottom {
-    overflow: hidden;
-  }
-  .hb_float {
-    float: left;
-  }
-  .hbn_logo {
-    float: right;
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 45%;
-    position: absolute;
-  }
   .hbn_logo a img {
-    padding-top: 5px;
+    width: 160px;
   }
   .hb_nav_left {
     margin: 50px auto;
@@ -48,10 +35,10 @@
   .c_btn {
     padding: 4px 12px;
   }
-  .choose_top {
+  .choose_top, .bl_top, .br_top {
     padding-top: 35px;
   }
-  .ct_text h2 {
+  .ct_text h2, .blt_text h2, .brt_text h2 {
     font-size: 25px;
   }
   .choose_bottom {
@@ -83,24 +70,26 @@
     font-size: 20px;
     padding-top: 10px;
   }
+  .bl_bottom {
+    padding-bottom: 10px;
+  }
+  .blb_item_left {
+    padding-right: 0px;
+  }
+  .blb_item_right {
+    padding-left: 0px;
+  }
+  .blb_item h5 {
+    padding-top: 10px;
+  }
+  .blb_item h5 {
+    padding-top: 5px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .header_bottom {
-    overflow: hidden;
-  }
-  .hb_float {
-    float: left;
-  }
-  .hbn_logo {
-    float: right;
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 64%;
-    position: absolute;
-  }
   .hbn_logo a img {
-    padding-top: 5px;
+    width: 160px;
   }
   .hb_nav_left {
     margin: 50px auto;
@@ -148,10 +137,10 @@
   .f_item_bgc:nth-child(4) {
     background-color: #1A9BDC;
   }
-  .choose_top {
+  .choose_top, .bl_top, .br_top {
     padding-top: 35px;
   }
-  .ct_text h2 {
+  .ct_text h2, .blt_text h2, .brt_text h2 {
     font-size: 25px;
   }
   .choose_bottom {
@@ -183,24 +172,20 @@
     font-size: 20px;
     padding-top: 10px;
   }
+  .bl_bottom {
+    padding-bottom: 20px;
+  }
+  .blb_item_left {
+    padding-right: 0px;
+  }
+  .blb_item_right {
+    padding-left: 0px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .header_bottom {
-    overflow: hidden;
-  }
-  .hb_float {
-    float: left;
-  }
-  .hbn_logo {
-    float: right;
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 71%;
-    position: absolute;
-  }
   .hbn_logo a img {
-    padding-top: 5px;
+    width: 160px;
   }
   .hb_nav_left {
     margin: 50px auto;
@@ -248,10 +233,10 @@
   .f_item_bgc:nth-child(4) {
     background-color: #1A9BDC;
   }
-  .choose_top {
+  .choose_top, .bl_top, .br_top {
     padding-top: 50px;
   }
-  .ct_text h2 {
+  .ct_text h2, .blt_text h2, .brt_text h2 {
     font-size: 28px;
   }
   .cb_item {
@@ -278,6 +263,9 @@
   .ctri_text {
     font-size: 20px;
     padding-top: 10px;
+  }
+  .bl_bottom {
+    padding-bottom: 20px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -326,13 +314,15 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .choose_top {
+  .choose_top, .bl_top, .br_top {
     padding-top: 80px;
-    padding-bottom: 20px;
   }
-  .ct_text h2 {
-    padding-bottom: 10px;
+  .ct_text h2, .blt_text h2, .brt_text h2 {
     font-size: 30px;
+  }
+  .ct_text p, .blt_text p, .brt_text p {
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   .counter {
     padding-top: 100px;
