@@ -383,4 +383,118 @@ h1, h2, h3, h4, h5, h6 {
 
 .accordion-item {
   border: none;
+}
+
+.gallery .gellery_bottom {
+  padding-bottom: 60px;
+}
+.gallery .gellery_bottom .gb_item {
+  padding-top: 20px;
+}
+.team .team_bottom {
+  padding-bottom: 60px;
+}
+.team .team_bottom .t_item {
+  padding-top: 30px;
+  text-align: center;
+}
+.team .team_bottom .t_item h5 {
+  padding-top: 15px;
+  color: #494949;
+}
+.team .team_bottom .t_item p {
+  padding-bottom: 10px;
+}
+.team .team_bottom .t_item .ti_social a {
+  color: #1A9BDC !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.offer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #e2e2e2;
+}
+.offer span {
+  font-family: Montserrat-Bold;
+  font-size: 22px;
+  padding-right: 30px;
+}
+
+.footer_top {
+  background-color: #171717;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer_top .ft_touch h5 {
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+.footer_top .ft_touch .ftt_item {
+  padding-bottom: 25px;
+}
+.footer_top .ft_touch .ftt_item .ftti_icon {
+  text-align: center;
+}
+.footer_top .ft_touch .ftt_item .ftti_icon i {
+  font-size: 25px;
+  color: #8d8d8d;
+}
+.footer_top .ft_touch .ftt_item .ftti_text a {
+  color: #8d8d8d !important;
+  text-decoration: none;
+}
+.footer_top .ft_touch .ftt_social ul {
+  padding: 0px;
+}
+.footer_top .ft_touch .ftt_social ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer_top .ft_touch .ftt_social ul li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff !important;
+}
+.footer_top .ft_links h5 {
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+.footer_top .ft_links ul {
+  padding: 0px;
+}
+.footer_top .ft_links ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.footer_top .ft_links ul li a {
+  color: #8d8d8d !important;
+  text-decoration: none;
+}
+.footer_top .ft_links ul li a i {
+  color: #1A9BDC;
+  padding-right: 10px;
+}
+.footer_top .ft_links .ft_form .ftf_input, .footer_top .ft_links .ft_form .ftf_message {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+}
+.footer_top .ft_links .ft_form button {
+  margin-top: 10px;
+}
+
+.footer_bottom {
+  background-color: #1a1a1a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer_bottom p {
+  color: #4b4343;
+}
+.footer_bottom p a {
+  color: #4b4343 !important;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

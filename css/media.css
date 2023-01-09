@@ -85,6 +85,41 @@
   .blb_item h5 {
     padding-top: 5px;
   }
+  .gallery .gellery_bottom {
+    padding-bottom: 30px;
+  }
+  .team .team_bottom {
+    padding-bottom: 40px;
+  }
+  .offer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .offer span {
+    padding-right: 0px;
+    font-size: 18px;
+  }
+  .offer a {
+    margin-top: 10px;
+  }
+  .footer_top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer_top .ft_touch h5 {
+    padding-bottom: 25px;
+  }
+  .footer_top .ft_touch .ftt_item {
+    padding-bottom: 20px;
+  }
+  .footer_top .ft_links h5 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  .footer_bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -181,6 +216,43 @@
   .blb_item_right {
     padding-left: 0px;
   }
+  .gallery .gellery_bottom {
+    padding-bottom: 30px;
+  }
+  .team .team_bottom {
+    padding-bottom: 40px;
+  }
+  .offer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .offer span {
+    padding-right: 0px;
+    font-size: 20px;
+  }
+  .offer a {
+    margin-top: 10px;
+  }
+  .footer_top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer_top .ft_touch h5 {
+    padding-bottom: 25px;
+  }
+  .footer_top .ft_touch .ftt_item {
+    padding-bottom: 20px;
+  }
+  .footer_top .ft_links h5 {
+    padding-bottom: 25px;
+  }
+  .footer_top .ft_links .ftlh_mdsm_pt {
+    padding-top: 25px;
+  }
+  .footer_bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -266,6 +338,33 @@
   }
   .bl_bottom {
     padding-bottom: 20px;
+  }
+  .gallery .gellery_bottom {
+    padding-bottom: 40px;
+  }
+  .team .team_bottom {
+    padding-bottom: 50px;
+  }
+  .offer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .offer span {
+    padding-right: 0px;
+  }
+  .offer a {
+    margin-top: 15px;
+  }
+  .footer_top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer_top .ft_links .ftlh_mdsm_pt {
+    padding-top: 30px;
+  }
+  .footer_bottom {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 /* Large devices (desktops, 992px and up) */
