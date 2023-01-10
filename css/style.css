@@ -482,6 +482,9 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-bottom: 1px solid #8d8d8d;
 }
+.footer_top .ft_links .ft_form .ftf_input:focus, .footer_top .ft_links .ft_form .ftf_message:focus {
+  border: 1px solid #8d8d8d;
+}
 .footer_top .ft_links .ft_form button {
   margin-top: 10px;
 }

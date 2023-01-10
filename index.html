@@ -412,7 +412,7 @@
               <div class="ctri_icon">
                 <img class="img-fluid" src="images/counter/counter-img-1.png" alt="tanvir notes">
               </div>
-              <div class="ctri_number">1000+</div>
+              <div class="ctri_number"><span class="count">1000</span>+</div>
               <div class="ctri_line">
                 <img class="img-fluid" src="images/counter/counter-hr-line.png" alt="tanvir notes">
               </div>
@@ -426,7 +426,7 @@
               <div class="ctri_icon">
                 <img class="img-fluid" src="images/counter/counter-img-1.png" alt="tanvir notes">
               </div>
-              <div class="ctri_number">2017</div>
+              <div class="ctri_number"><span class="count">2017</span></div>
               <div class="ctri_line">
                 <img class="img-fluid" src="images/counter/counter-hr-line.png" alt="tanvir notes">
               </div>
@@ -440,7 +440,7 @@
               <div class="ctri_icon">
                 <img class="img-fluid" src="images/counter/counter-img-1.png" alt="tanvir notes">
               </div>
-              <div class="ctri_number">1105+</div>
+              <div class="ctri_number"><span class="count">1105</span>+</div>
               <div class="ctri_line">
                 <img class="img-fluid" src="images/counter/counter-hr-line.png" alt="tanvir notes">
               </div>
@@ -454,7 +454,7 @@
               <div class="ctri_icon">
                 <img class="img-fluid" src="images/counter/counter-img-1.png" alt="tanvir notes">
               </div>
-              <div class="ctri_number">500+</div>
+              <div class="ctri_number"><span class="count">500</span>+</div>
               <div class="ctri_line">
                 <img class="img-fluid" src="images/counter/counter-hr-line.png" alt="tanvir notes">
               </div>
@@ -890,14 +890,17 @@
 
 
 
-
-
-
     <!-- JS links -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <script></script>
+    <script>
+      $('.count').counterUp({
+    delay: 10,
+});
+  </script>
   </body>
 </html>
